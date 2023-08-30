@@ -36,7 +36,7 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Management Information Systems, Minor in Computer Science",
       "studyType": "B.B.A.",
-      "endDate": "Fall 2023",
+      "endDate": "2023-12-22",
       "courses": [
         "Introduction to Computer Science I & II",
         "Programming Application Systems",
@@ -54,8 +54,8 @@
       "company": "Decision Research Corporation",
       "position": "Software Engineer Intern",
       "website": "",
-      "startDate": "2023-06",
-      "endDate": "2023-08",
+      "startDate": "2023-06-05",
+      "endDate": "2023-07-28",
       "summary": "Summer 2023 Software Engineer Intern on the Intelligent Document Processing team",
       "highlights": [
         "Collaborated with the AI/ML team to develop the Intelligent Document Processing Application, which utilized Azure Form Recognizers API to scan and extract data from insurance forms.",
@@ -69,7 +69,7 @@
       "company": "Research Computing Facility at the University of Hawaii at Manoa",
       "position": "Computer and Network Support",
       "website": "https://www.soest.hawaii.edu/rcf/about.htm",
-      "startDate": "2021-11",
+      "startDate": "2021-11-08",
       "endDate": "Present",
       "summary": "",
       "highlights": [
@@ -80,7 +80,7 @@
       ]
     }
   ],
-  "Organizations": [
+  "organizations": [
     {
       "organization": "Delta Sigma Pi Business Fraternity - Rho Chi Chapter",
       "website": "dspuhm.com",
