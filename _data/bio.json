@@ -16,7 +16,8 @@
   },
   "interests": [
     { "name": "Back-end Engineering" },
-    { "name": "Web3" },
+    { "name": "Consulting" },
+    { "name": "Product Management" },
     { "name": "Djiing/Music" },
     { "name": "Aviation" }
   ],
@@ -79,45 +80,55 @@
       ]
     }
   ],
-  "volunteer": [
+  "Organizations": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Delta Sigma Pi Business Fraternity - Rho Chi Chapter",
+      "website": "dspuhm.com",
+      "position": "President, Vice President of New Member Education, Vice President of Professional Activities",
+      "startDate": "2020",
+      "endDate": "2023",
+      "summary": "",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Facilitated meetings and guided leadership of more than 70 active collegiate members and 300 alumni",
+        "Developed and maintained relationships with corporate partners to secure resources for professional and educational development",
+        "Established initiatives to support student members in developing professional and networking skills, leading to an over 70% internship landing rate of upperclassmen members",
+        "Managed a budget of $10,000 and ensured all funds were allocated in accordance with club policies and procedures"
       ]
     },
     {
-      "organization": "",
+      "organization": "Kappa Sigma Fraternity - Omicron Zeta Chapter",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
+      "position": "Vice President, Scholarship Chair, Risk Management Chair",
+      "startDate": "2021",
+      "endDate": "2023",
+      "summary": "",
+      "highlights": [
+        "Served as Vice President of Kappa Sigma Fraternity, overseeing operations, scholarship, and event planning",
+        "Spearheaded efforts to increase membership by 30%, resulting in increased funding and publicity for the organization",
+        "Implemented a Diversity-Inclusion-Equity program, the first of its kind for any Greek Fraternity organization at the University",
+        "Established and maintained strong relationships with university staff and alumni to ensure that the organization met expectations and standards"
+      ]
+    },
+    {
+      "organization": "University of Hawaii eSports - Valorant Varsity Black",
+      "website": "",
+      "position": "Captain",
+      "startDate": "2021",
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Assumed the role of captain of the University of Hawaii's Valorant eSports team, creating strategies to ensure the team's success",
+        "Leveraged in-depth knowledge of the game and its players to create team compositions and winning tactics",
+        "Coordinated regular practice sessions and team meetings to foster cooperation, trust, and mutual respect"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Hawai'i State Seal of Biliteracy: Korean and English",
+      "date": "2019",
+      "awarder": "State of Hawaii Department of Education",
+      "summary": "Awarded to those who pass a biliteracy test to acknowledge reading, writing, and speaking skills in multiple languages."
     }
   ],
   "references": [
