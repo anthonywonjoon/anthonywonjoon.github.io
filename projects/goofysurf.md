@@ -1,6 +1,7 @@
 ---
 layout: project
 type: project
+image: /img/discord-logo.png
 title: "GoofySurf"
 date: 2021
 published: true
@@ -9,6 +10,8 @@ labels:
   - Github
 summary: "A Discord bot for tracking surf reports"
 ---
+
+<img class="img-fluid" src="../img/discord-logo.png">
 
 GoofySurf is a Discord Bot, built using the Discord.js library, that utlizies the Surfline API in order to pull accurate wave, wind, and tide data on surf spots around O'ahu.
 
