@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: /img/discord-logo.png
+image: img/discord-logo.png
 title: "GoofySurf"
 date: 2021
 published: true
