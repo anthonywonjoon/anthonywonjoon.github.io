@@ -15,7 +15,7 @@
     ]
   },
   "interests": [
-    { "name": "Back-end Engineering" },
+    { "name": "Backend Engineering" },
     { "name": "Consulting" },
     { "name": "Product Management" },
     { "name": "Djiing/Music" },
@@ -36,7 +36,7 @@
       "institution": "Shidler College of Business - University of Hawaii at Manoa, Honolulu, HI",
       "area": "Management Information Systems, Minor in Computer Science",
       "studyType": "B.B.A.",
-      "endDate": "2023-12-22",
+      "endDate": "Fall2023",
       "courses": [
         "Introduction to Computer Science I & II",
         "Programming Application Systems",
@@ -77,6 +77,19 @@
         "Coordinated with vendors and other IT staff to ensure efficient operation of university computers and networks.",
         "Installed, configured, and maintained computer and network infrastructure such as workstations, servers, switches, routers, and firewalls",
         "Technologies: Linux, Command Line, Windows"
+      ]
+    },
+    {
+      "company": "Malama Solar",
+      "position": "Project Coordinator",
+      "website": "",
+      "startDate": "2020",
+      "endDate": "2021",
+      "summary": "",
+      "highlights": [
+        "Successfully managed multiple solar projects simultaneously while coordinating with other departments, vendors, and clients.",
+        "Developed detailed project plans and schedules for each project, ensuring that all team members and vendors had adequate resources and deadlines for each task.",
+        "Provided hands-on support throughout the project’s life cycle, from design and pre-planning to installation and commissioning"
       ]
     }
   ],
