@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/question.png
 title: "Leedle: Wordle Clone"
-date: 2023
+date: 2021
 published: true
 labels:
   - HTML
