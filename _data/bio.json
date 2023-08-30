@@ -1,71 +1,81 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
+    "name": "Anthony Lee W.",
+    "label": "Shidler College of Business at the University of Hawai'i at Manoa",
     "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "email": "alee91@hawaii.edu",
+    "phone": "808-445-4648",
+    "website": "https://anthonywonjoon.github.io",
+    "summary": "BBA Candidate in Management Information Systems, Minor in Computer Science || Fall 2023",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "anthonywonjoon", "url": "http://github.com/anthonywonjoon" },
+      { "network": "linkedin", "username": "anthonywonjoon", "url": "http://linkedin.com/in/anthonywonjoon" },
+      { "network": "instagram", "username": "anthonywonjoon", "url": "http://instagram.com/anthonywonjoon" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Back-end Engineering" },
+    { "name": "Web3" },
+    { "name": "Djiing/Music" },
+    { "name": "Aviation" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C#", "ASP.Net", "Java", "Javascript", "React", "Express" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "Command-Line", "Windows" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "area": "Management Information Systems, Minor in Computer Science",
+      "studyType": "B.B.A.",
+      "endDate": "Fall 2023",
       "courses": [
+        "Introduction to Computer Science I & II",
+        "Programming Application Systems",
+        "Information Systems Analysis and Design",
+        "Database Systems",
+        "Software Engineering I",
+        "Project/Venture Management",
+        "Algorithms",
+        "Machine-Lvl & Systems Programming"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Decision Research Corporation",
+      "position": "Software Engineer Intern",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2023-06",
+      "endDate": "2023-08",
+      "summary": "Summer 2023 Software Engineer Intern on the Intelligent Document Processing team",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Collaborated with the AI/ML team to develop the Intelligent Document Processing Application, which utilized Azure Form Recognizers API to scan and extract data from insurance forms.",
+        "Implemented C# ASP.Net backend functionalities to handle data extraction, validation, and storage processes, ensuring efficient and accurate processing of insurance forms.",
+        "Conducted rigorous testing and debugging to identify and resolve software defects, improving the overall reliability and performance of the application using frameworks such as xUnit and Moq.",
+        "Contributed to the documentation of the application, including technical specifications, user manuals, and troubleshooting guides, facilitating future development and maintenance.",
+        "Technologies: C# ASP.Net, React.js, Azure"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Research Computing Facility at the University of Hawaii at Manoa",
+      "position": "Computer and Network Support",
+      "website": "https://www.soest.hawaii.edu/rcf/about.htm",
+      "startDate": "2021-11",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Provided technical assistance to faculty and staff for all University-related computer and network systems, including hardware and software setup, troubleshooting, and repair",
+        "Coordinated with vendors and other IT staff to ensure efficient operation of university computers and networks.",
+        "Installed, configured, and maintained computer and network infrastructure such as workstations, servers, switches, routers, and firewalls",
+        "Technologies: Linux, Command Line, Windows"
       ]
     }
   ],
