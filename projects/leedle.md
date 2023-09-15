@@ -12,12 +12,12 @@ labels:
 summary: "A copy of the popular game Wordle, that I created for practice"
 ---
 
-# LEEDLE: The Wordle Clone
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Leedle is a practice project of mine that I made after the surge in popularity around the web-game, Wordle.
+Leedle is a practice project of mine that I made after the surge in popularity around the web-game, Wordle. This was my first attempt at a project when I first learned to code. At the moment, it is going through a complete rework from scratch, but until then, please enjoy the very first version
+
+[PLAY HERE](https://anthonywonjoon.github.io/leedle)
 
 ### Built With
 
