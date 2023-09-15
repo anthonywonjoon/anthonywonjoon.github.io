@@ -12,10 +12,20 @@ labels:
 summary: "A copy of the popular game Wordle, that I created for practice"
 ---
 
+## UPDATE (14 Sept 2023)
+I have begun the complete rework of Leedle. Here are some features that are soon to come:
+- [ ] Visual Rework
+- [ ] Rewriting of game logic for optimization
+- [ ] Global Leaderboard
+- [ ] Dark mode & Light mode
+
+## NOTE
+ This was my first attempt at a project when I first learned to code. At the moment, it is going through a complete rework from scratch, but until then, please enjoy the very first version
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Leedle is a practice project of mine that I made after the surge in popularity around the web-game, Wordle. This was my first attempt at a project when I first learned to code. At the moment, it is going through a complete rework from scratch, but until then, please enjoy the very first version
+Leedle is a practice project of mine that I made after the surge in popularity around the web-game, Wordle.
 
 [PLAY HERE](https://anthonywonjoon.github.io/leedle)
 
@@ -23,7 +33,6 @@ Leedle is a practice project of mine that I made after the surge in popularity a
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 ![Node.js](https://img.shields.io/badge/-Node.js-222222?style=flat&logo=node.js&logoColor=339933)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 <!-- USAGE EXAMPLES -->
 ## Features
