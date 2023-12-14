@@ -13,7 +13,7 @@ labels:
 summary: "An API version of my resume, built using Java, Springboot, and MySQL"
 ---
 
-<img class="img-fluid" src="../img/discord-icon.png">
+<img class="img-fluid" src="..img/resumeapi-social-card.png">
 
 An API version of my resume, built using Java, Springboot, and MySQL
 
