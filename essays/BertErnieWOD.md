@@ -18,7 +18,7 @@ This past week, we took our first WOD. The ticking time, the pressure of looking
 ## WOD Performance
 
 My code for the prompt is below:
-```
+```js
 const bertErnie = function fourBertSixErnie(ceiling) {
     for (let i =  1; i < ceiling + 1; i++) {
         if (i % 4 === 0 && i % 6 === 0 ) { // if multiple of both 4 and 6
@@ -46,7 +46,7 @@ After discussion, I realised that I should have done this in two different ways:
 
 Below you can find a variation where the loop exists outside the function, allowing us full control of the floor and ceiling without worry of modifying the algorithm.
 
-```
+```js
   const bertErnie = function fourBertSixErnie(counter) {
     if (counter % 4 === 0 && counter % 6 === 0) { console.log("BertErnie); }
     else if (counter % 4 === 0) { console.log("Bert); }
