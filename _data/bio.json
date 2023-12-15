@@ -3,10 +3,10 @@
     "name": "Anthony Wonjoon Lee",
     "label": "Shidler College of Business at the University of Hawai'i at Manoa",
     "picture": "https://raw.githubusercontent.com/anthonywonjoon/anthonywonjoon.github.io/main/img/anthony-lee.jpg",
-    "email": "alee91@hawaii.edu",
-    "phone": "808-445-4648",
+    "email": "a.wonjoonlee@gmail.com",
+    "phone": "(808)445-4648",
     "website": "https://anthonywonjoon.github.io",
-    "summary": "BBA Candidate in Management Information Systems, Minor in Computer Science || Fall 2023",
+    "summary": "BBA Graduate in Management Information Systems, Minor in Computer Science",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "anthonywonjoon", "url": "http://github.com/anthonywonjoon" },
@@ -15,20 +15,20 @@
     ]
   },
   "interests": [
-    { "name": "Backend Engineering" },
+    { "name": "Software Engineering" },
+    { "name": "Backend Development" },
     { "name": "Consulting" },
     { "name": "Product Management" },
-    { "name": "Djiing/Music" },
-    { "name": "Aviation" }
+    { "name": "Djiing/Music" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C#", "ASP.Net", "Java", "Javascript", "React", "Express" ]
+      "keywords": [ "C#", "ASP.Net", "Java", "Javascript", "React", "Express", "Spring Boot" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "Command-Line", "Windows" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "Command-Line", "Windows", "Docker", "Proxmox" ]
     }
   ],
   "education": [
@@ -36,16 +36,16 @@
       "institution": "Shidler College of Business - University of Hawaii at Manoa, Honolulu, HI",
       "area": "Management Information Systems, Minor in Computer Science",
       "studyType": "B.B.A.",
-      "endDate": "Fall2023",
+      "endDate": "12-2023",
       "courses": [
-        "Introduction to Computer Science I & II",
-        "Programming Application Systems",
+        "Introduction to Computer Science I & II - Java",
+        "Programming Application Systems - HTML/CSS, Javascript",
         "Information Systems Analysis and Design",
-        "Database Systems",
-        "Software Engineering I",
+        "Database Systems - MySQL",
+        "Software Engineering I - HTML/CSS, JavaScript, React, Meteor, MongoDB",
         "Project/Venture Management",
         "Algorithms",
-        "Machine-Lvl & Systems Programming"
+        "Machine-Lvl & Systems Programming - x86 Assembly"
       ]
     }
   ],
