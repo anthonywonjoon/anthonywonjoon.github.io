@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="GoofySurf | Anthony Lee | Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://raw.githubusercontent.com/anthonywonjoon/anthonywonjoon.github.io/main/img/anthony-lee.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Anthony Lee | Portfolio">
+    <meta property="og:url" content="https://anthonywonjoon.github.io/projects/goofysurf.html">
+    <meta property="og:title" content="GoofySurf | Anthony Lee | Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://raw.githubusercontent.com/anthonywonjoon/anthonywonjoon.github.io/main/img/anthony-lee.jpg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>GoofySurf | Anthony Lee | Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Anthony Wonjoon Lee</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">GoofySurf</h1>
+ <p><img class="img-fluid" src="../img/discord-icon.png" /></p>
+
+<p>GoofySurf is a Discord Bot, built using the Discord.js library, that utlizies the Surfline API in order to pull accurate wave, wind, and tide data on surf spots around O’ahu.</p>
+
+<p>Why?:</p>
+<ul>
+  <li>To reduce the redudant checking and relaying of information from one surf app to however many friends you go surf with, by centralizing it all in one server, where they can all see the same message</li>
+  <li>To make a project that is relevant to myself and the people around me, while developing my Javascript skills and using REST APIs.</li>
+</ul>
+
+<h3 id="built-with">Built With</h3>
+
+<p><img src="https://img.shields.io/badge/-JavaScript-000000?style=flat&amp;logo=javascript" alt="JavaScript" />
+<img src="https://img.shields.io/badge/-Node.js-222222?style=flat&amp;logo=node.js&amp;logoColor=339933" alt="Node.js" /></p>
+
+<!-- USAGE EXAMPLES -->
+<h2 id="usage">Usage</h2>
+
+<h3 id="surflist">/surflist</h3>
+
+<p>Returns you all the spots that the bot is currently able to pull surf data from</p>
+
+<p><img src="https://user-images.githubusercontent.com/89366304/205186413-1197912d-9efd-44b8-ab7c-9b99b3ab8119.png" alt="image" /></p>
+
+<p><img src="https://user-images.githubusercontent.com/89366304/205186626-e173db1e-f36a-4ac3-a911-5d41e9d71ab7.png" alt="image" /></p>
+
+<h3 id="surfreport-location">/surfreport <em>location</em></h3>
+
+<p>Returns you the updated surf report from the requested spot</p>
+
+<p>Requires parameter, location, which can be found in /surflist</p>
+
+<p><img src="https://user-images.githubusercontent.com/89366304/205186827-c18d7fb5-e591-4787-a89c-fa55a0ddffd8.png" alt="image" /></p>
+
+<p>This command will give you the following information:</p>
+
+<ul>
+  <li>Time that the data was pulled</li>
+  <li>Wave height, measured in feet, as well as the human relation</li>
+  <li>Wind direction, in relation with the shoreline, as well as wind speed and gusts, measured in KTS</li>
+  <li>The current tide</li>
+  <li>The scores for both the waves and wind, calculated by Surfline, ranging from “Ass”, “Good”, and “Optimal”</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/89366304/205186855-3ec5adc4-7d3e-4fc2-8959-7799193703bd.png" alt="image" /></p>
+
+<!-- ROADMAP -->
+<h2 id="roadmap">Roadmap</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add Changelog</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Figure out how to pull exact current data</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add in more spots around Oahu and the other Hawaiian Islands
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Maui</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Big Island</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add in mainland spots, starting with California</li>
+</ul>
+
+<p>Project Link: <a href="https://github.com/anthonywonjoon/goofysurf">https://github.com/anthonywonjoon/goofysurf</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

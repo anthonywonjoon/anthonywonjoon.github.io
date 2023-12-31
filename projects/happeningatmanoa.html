@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="HappeningAtManoa | Anthony Lee | Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://raw.githubusercontent.com/anthonywonjoon/anthonywonjoon.github.io/main/img/anthony-lee.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Anthony Lee | Portfolio">
+    <meta property="og:url" content="https://anthonywonjoon.github.io/projects/happeningatmanoa.html">
+    <meta property="og:title" content="HappeningAtManoa | Anthony Lee | Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://raw.githubusercontent.com/anthonywonjoon/anthonywonjoon.github.io/main/img/anthony-lee.jpg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>HappeningAtManoa | Anthony Lee | Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Anthony Wonjoon Lee</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">HappeningAtManoa</h1>
+ <p><img class="img-fluid" src="../img/ham.png" /></p>
+
+<p>Happening At Manoa is an application for members of the UH Manoa community to see what events are going on in their community as well as search for events that aligns with their interests. Our goal is to help build connectivity within the UH Manoa community with an application that will make knowing about and attending events more convenient.</p>
+
+<p>Check out our Team’s Github: <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Github" /></p>
+
+<h3 id="built-with">Built With</h3>
+
+<p><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB" alt="React" />
+<img src="https://img.shields.io/badge/meteorjs-%23d74c4c.svg?style=for-the-badge&amp;logo=meteor&amp;logoColor=white" alt="Meteor JS" />
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white" alt="MongoDB" /></p>
+
+<h2 id="my-contributions-what-i-learned-and-some-challenges">My Contributions, What I Learned, and Some Challenges</h2>
+
+<p>There were so many things that were introduced to me while working on this project, from working based off of issue-driven management, to working with others in one code base, and even in things such as design.</p>
+
+<p>My main contributions to this project was the development of the landing page, as well as the image upload feature. The biggest challenge I faced was how to actually implement that latter feature; Do we implement something like an AWS S3 instance or Google Bucket, then save the public URL to our database? Do we physically copy the uploaded image into our codebase directory? After struggling with this for a while, trying to determine the best course of action, I was able to reach a conclusion by talking with my teammates, Professor Port, and a guest speaker that had come into class that week. We decided that encoding the image into a Base64 string, and storing that string into our database would be the best course of action.</p>
+
+<p>It felt like there was no one answer to that issue, and there never is. This challenge taught me that there are so many ways of doing the same thing, you just need to figure out what works best with all your other implementations. It also shed light on one of the most important aspects of doing this project: communication. In a group of 5 students, all with different backgrounds, experiences, schedules, and interests, communication was the number one factor to success. Being able to communicate ideas, concerns, and suggestions in a constructive, yet efficient way is so important when working in a group. It is definitely the number one thing I am taking away from this project.</p>
+
+<h2 id="screenshots">Screenshots</h2>
+<p><img src="https://github.com/anthonywonjoon/anthonywonjoon.github.io/assets/89366304/febebf74-e90e-4910-ac2d-28586eab4cf3" alt="landing-final-final" />
+<img src="https://github.com/anthonywonjoon/anthonywonjoon.github.io/assets/89366304/c7c30e4f-7400-4537-9815-fb679b81f82c" alt="about-real-m2" /></p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

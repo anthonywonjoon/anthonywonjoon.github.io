@@ -1,0 +1,152 @@
+{
+  "basics": {
+    "name": "Anthony Wonjoon Lee",
+    "label": "Shidler College of Business at the University of Hawai'i at Manoa",
+    "picture": "https://raw.githubusercontent.com/anthonywonjoon/anthonywonjoon.github.io/main/img/anthony-lee.jpg",
+    "email": "a.wonjoonlee@gmail.com",
+    "phone": "(808)445-4648",
+    "website": "https://anthonywonjoon.github.io",
+    "summary": "BBA Graduate in Management Information Systems, Minor in Computer Science",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "anthonywonjoon", "url": "http://github.com/anthonywonjoon" },
+      { "network": "linkedin", "username": "anthonywonjoon", "url": "http://linkedin.com/in/anthonywonjoon" },
+      { "network": "instagram", "username": "anthonywonjoon", "url": "http://instagram.com/anthonywonjoon" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Backend Development" },
+    { "name": "Consulting" },
+    { "name": "Product Management" },
+    { "name": "Djiing/Music" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C#", "ASP.Net", "Java", "Javascript", "React", "Express", "Spring Boot" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "Command-Line", "Windows", "Docker", "Proxmox" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Shidler College of Business - University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Management Information Systems, Minor in Computer Science",
+      "studyType": "B.B.A.",
+      "endDate": "2023",
+      "courses": [
+        "Introduction to Computer Science I & II - Java",
+        "Programming Application Systems - HTML/CSS, Javascript",
+        "Information Systems Analysis and Design",
+        "Database Systems - MySQL",
+        "Software Engineering I - HTML/CSS, JavaScript, React, Meteor, MongoDB",
+        "Project/Venture Management",
+        "Algorithms",
+        "Machine-Lvl & Systems Programming - x86 Assembly"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Decision Research Corporation",
+      "position": "Software Engineer Intern",
+      "website": "",
+      "startDate": "2023-06-05",
+      "endDate": "2023-07-28",
+      "summary": "Summer 2023 Software Engineer Intern on the Intelligent Document Processing team",
+      "highlights": [
+        "Collaborated with the AI/ML team to develop the Intelligent Document Processing Application, which utilized Azure Form Recognizers API to scan and extract data from insurance forms.",
+        "Implemented C# ASP.Net backend functionalities to handle data extraction, validation, and storage processes, ensuring efficient and accurate processing of insurance forms.",
+        "Conducted rigorous testing and debugging to identify and resolve software defects, improving the overall reliability and performance of the application using frameworks such as xUnit and Moq.",
+        "Contributed to the documentation of the application, including technical specifications, user manuals, and troubleshooting guides, facilitating future development and maintenance.",
+        "Technologies: C# ASP.Net, React.js, Azure"
+      ]
+    },
+    {
+      "company": "Research Computing Facility at the University of Hawaii at Manoa",
+      "position": "Computer and Network Support",
+      "website": "https://www.soest.hawaii.edu/rcf/about.htm",
+      "startDate": "2021-11-08",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Provided technical assistance to faculty and staff for all University-related computer and network systems, including hardware and software setup, troubleshooting, and repair",
+        "Coordinated with vendors and other IT staff to ensure efficient operation of university computers and networks.",
+        "Installed, configured, and maintained computer and network infrastructure such as workstations, servers, switches, routers, and firewalls",
+        "Technologies: Linux, Command Line, Windows"
+      ]
+    },
+    {
+      "company": "Malama Solar",
+      "position": "Project Coordinator",
+      "website": "",
+      "startDate": "2020",
+      "endDate": "2021",
+      "summary": "",
+      "highlights": [
+        "Successfully managed multiple solar projects simultaneously while coordinating with other departments, vendors, and clients.",
+        "Developed detailed project plans and schedules for each project, ensuring that all team members and vendors had adequate resources and deadlines for each task.",
+        "Provided hands-on support throughout the project’s life cycle, from design and pre-planning to installation and commissioning"
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "organization": "Delta Sigma Pi Business Fraternity - Rho Chi Chapter",
+      "website": "dspuhm.com",
+      "position": "President, Vice President of New Member Education, Vice President of Professional Activities",
+      "startDate": "2020",
+      "endDate": "2023",
+      "summary": "",
+      "highlights": [
+        "Facilitated meetings and guided leadership of more than 70 active collegiate members and 300 alumni",
+        "Developed and maintained relationships with corporate partners to secure resources for professional and educational development",
+        "Established initiatives to support student members in developing professional and networking skills, leading to an over 70% internship landing rate of upperclassmen members",
+        "Managed a budget of $10,000 and ensured all funds were allocated in accordance with club policies and procedures"
+      ]
+    },
+    {
+      "organization": "Kappa Sigma Fraternity - Omicron Zeta Chapter",
+      "website": "",
+      "position": "Vice President, Scholarship Chair, Risk Management Chair",
+      "startDate": "2021",
+      "endDate": "2023",
+      "summary": "",
+      "highlights": [
+        "Served as Vice President of Kappa Sigma Fraternity, overseeing operations, scholarship, and event planning",
+        "Spearheaded efforts to increase membership by 30%, resulting in increased funding and publicity for the organization",
+        "Implemented a Diversity-Inclusion-Equity program, the first of its kind for any Greek Fraternity organization at the University",
+        "Established and maintained strong relationships with university staff and alumni to ensure that the organization met expectations and standards"
+      ]
+    },
+    {
+      "organization": "University of Hawaii eSports - Valorant Varsity Black",
+      "website": "",
+      "position": "Captain",
+      "startDate": "2021",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Assumed the role of captain of the University of Hawaii's Valorant eSports team, creating strategies to ensure the team's success",
+        "Leveraged in-depth knowledge of the game and its players to create team compositions and winning tactics",
+        "Coordinated regular practice sessions and team meetings to foster cooperation, trust, and mutual respect"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Hawai'i State Seal of Biliteracy: Korean and English",
+      "date": "2019",
+      "awarder": "State of Hawaii Department of Education",
+      "summary": "Awarded to those who pass a biliteracy test to acknowledge reading, writing, and speaking skills in multiple languages."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

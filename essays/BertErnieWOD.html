@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="BertErnie WOD Reflection | Anthony Lee | Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://raw.githubusercontent.com/anthonywonjoon/anthonywonjoon.github.io/main/img/anthony-lee.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Anthony Lee | Portfolio">
+    <meta property="og:url" content="https://anthonywonjoon.github.io/essays/BertErnieWOD.html">
+    <meta property="og:title" content="BertErnie WOD Reflection | Anthony Lee | Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://raw.githubusercontent.com/anthonywonjoon/anthonywonjoon.github.io/main/img/anthony-lee.jpg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/lime.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>BertErnie WOD Reflection | Anthony Lee | Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Anthony Wonjoon Lee</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">BertErnie WOD Reflection</h1>
+  <span class="date">04 Sep 2023</span>
+  <hr>
+  <h2 id="preparing-for-and-performing-the-wod">Preparing for and Performing the WOD</h2>
+
+<p>This past week, we took our first WOD. The ticking time, the pressure of looking at the clock, and the silence in the room as everyone is clacking away at their keyboard can be very stressful and make anyone crack. Luckily, the prompt was not too crazy as it was our first WOD. This was my first time doing WODs in a classroom setting, but I have done them in the past, in my ITM class, as well as the practice WODs from this class. Prepping by going over the material for that week was very helpful and a big key to succeeding.</p>
+
+<h2 id="wod-performance">WOD Performance</h2>
+
+<p>My code for the prompt is below:</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">bertErnie</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">fourBertSixErnie</span><span class="p">(</span><span class="nx">ceiling</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span>  <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">ceiling</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">===</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">i</span> <span class="o">%</span> <span class="mi">6</span> <span class="o">===</span> <span class="mi">0</span> <span class="p">)</span> <span class="p">{</span> <span class="c1">// if multiple of both 4 and 6</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">BertErnie</span><span class="dl">"</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// if multiple of 4</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Bert</span><span class="dl">"</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">%</span> <span class="mi">6</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// if multiple of 6</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Ernie</span><span class="dl">"</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span> <span class="c1">// if not multiple of either, print</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">bertErnie</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+
+</code></pre></div></div>
+
+<p>From the start, the prompt looked familiar. It is, at its core, the <a href="https://leetcode.com/problems/fizz-buzz/">FizzBuzz problem</a>.</p>
+
+<p>After discussion, I realised that I should have done this in two different ways: without the loop inside the function, or including a floor in the function. This would allow for the function to be modifiable without changing the actual function.</p>
+
+<p>Below you can find a variation where the loop exists outside the function, allowing us full control of the floor and ceiling without worry of modifying the algorithm.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kd">const</span> <span class="nx">bertErnie</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">fourBertSixErnie</span><span class="p">(</span><span class="nx">counter</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">counter</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">===</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">counter</span> <span class="o">%</span> <span class="mi">6</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">BertErnie); }
+    else if (counter % 4 === 0) { console.log(</span><span class="dl">"</span><span class="nx">Bert</span><span class="p">);</span> <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">counter</span> <span class="o">%</span> <span class="mi">6</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Ernie); }
+    else { console.log(counter); }
+  }
+
+  for (let i = 1; i &lt;= 100; i++) {
+    bertErnie(i);
+  }
+</span></code></pre></div></div>
+
+<p>I did not struggle with the time limit, but I realised I should have used more of the time to go over the code that I had written rather than rushing to turn it in. I still had a lot of wiggle room to reach Rx (which I believe was 7 minutes).</p>
+
+<p>The experience of doing these WODs are valuable because they reflect technical interviews: coding problems focused on finding an optimal algorithm and/or data structure in a limited amount of time. These WODs will prepare those of us planning on entering the Software Engineering field.</p>
+
+<p>I think a big part of these WODs that are done in class are the discussions after. As in every field in the professional field and in academia, peer-reviews are a core part of growing. Being able to discuss what we thought of on our own, the pitfalls of some of our logic, and finally combining the strengths of our individual thoughts into one idea is the best way to keep growing.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
